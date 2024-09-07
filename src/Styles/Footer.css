@@ -1,0 +1,15 @@
+.footer-style {
+    width: 400px;
+    height: 85px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #ccc;
+    background-color: rgb(242, 242, 247);
+    color: rgb(29, 6, 6);
+    border-radius: 4px;
+    padding: 10px;
+
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
