@@ -1,0 +1,49 @@
+.date-range-selector {
+    position: relative; /* For positioning the dropdown */
+    display: inline-block;
+}
+
+.ellipsis {
+    cursor: pointer;
+    font-size: 24px; /* Adjust as needed */
+    user-select: none;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%; /* Position below the ellipsis */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Make sure it is above other elements */
+    width: max-content; /* Adjust width based on content */
+}
+
+.dropdown div {
+    margin-bottom: 10px;
+}
+
+.dropdown label {
+    margin-right: 5px;
+}
+
+.header-component {
+    display: flex;
+    justify-content: space-between; /* Aligns content to left and right */
+    align-items: center; /* Vertically centers the items */
+    padding: 10px 20px; /* Adds some padding around the header */
+    border-bottom: 1px solid #ddd; /* Optional: adds a bottom border for separation */
+}
+
+.header-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Ensures content inside header-content is spaced out */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.date {
+    margin: 0; /* Resets any default margin on the <h1> */
+}
